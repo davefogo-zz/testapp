@@ -1,0 +1,13 @@
+<% content_for :title do %>Invoice<% end %>
+<h3>Invoice</h3>
+<div class="form">
+<%= simple_form_for @invoice do |f| %>
+  <%= f.input :date %>
+  <%= f.input :company %>
+  <%= f.input :product %>
+  <%= f.input :quantity %>
+  <%= f.input :price %>
+  <%= f.input :total %>
+  <%= f.button :submit %>
+<% end %>
+</div>

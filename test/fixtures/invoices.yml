@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2015-05-27
+  company: MyString
+  product: MyString
+  quantity: 1
+  price: 9.99
+  total: 1
+  quote_id: 
+
+two:
+  date: 2015-05-27
+  company: MyString
+  product: MyString
+  quantity: 1
+  price: 9.99
+  total: 1
+  quote_id: 

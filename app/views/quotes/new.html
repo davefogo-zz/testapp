@@ -1,0 +1,14 @@
+<% content_for :title do %>Quote<% end %>
+<h3>Quote</h3>
+<div class="form">
+<%= simple_form_for @quote do |f| %>
+  <%= f.input :date %>
+  <%= f.input :company %>
+  <%= f.input :product %>
+  <%= f.input :quantity %>
+  <%= f.input :price %>
+  <%= f.input :total %>
+  <%= f.input :approved %>
+  <%= f.button :submit %>
+<% end %>
+</div>
